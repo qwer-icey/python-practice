@@ -1,4 +1,6 @@
-for num in range(0, 11):
+import random
+num = random.randint(1, 10)
+while True:
     play_num = input("请输入10以内的整数:").strip()
     if play_num.lstrip("-").isdigit() and int(play_num) == num:
         print(f"{int(play_num)} is the true number")
