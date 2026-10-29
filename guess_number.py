@@ -7,5 +7,5 @@ while True:
         break
     else:
         print(f"{play_num}错了，正确答案是{num}")
-        break
+        continue
 input("按回车键退出...")
