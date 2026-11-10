@@ -10,8 +10,8 @@ while True:
     for i in range(0,65535,512):
         pwm.duty_u16(i)
         time.sleep(0.01)
-    for i in range(65535,0,-512):
-        pwm.duty_u16(i)
+    for j in range(65535,0,-512):
+        pwm.duty_u16(j)
         time.sleep(0.01)
     
     
