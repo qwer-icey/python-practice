@@ -8,3 +8,4 @@
 | `count_char.py` | 自定义函数统计字符出现次数 |
 | `str_add.py` | 函数拼接两个字符串（待修） |
 |`raspberry_pico-breath light` | pico呼吸灯|
+|`guess_number.py` | 判断结构进行猜数 |
